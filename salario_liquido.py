@@ -23,5 +23,6 @@ class Calculadora:
 salario = float(input("Digite seu salario: "))
 salario_liq = Calculadora.salario_liquido(salario)
 
-print("Seu salario liquido é", salario_liq)
+print(f"Seu salario liquido é {salario_liq:0.2f}")
+print("Seu salario liquido é %0.2f" % salario_liq)
  
