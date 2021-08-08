@@ -1,9 +1,6 @@
 from calculadora import Calculadora
 
 
-from calculadora import Calculadora
-        
-
 
 salario = float(input("Digite seu salario: "))
 resp = input("Desconta Vale Transporte? Sim (s) ou Não (n): ")
