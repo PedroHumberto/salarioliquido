@@ -3,7 +3,7 @@ from calculadora import Calculadora
 
 
 salario = float(input("Digite seu salario: "))
-resp = input("Desconta Vale Transporte? Sim (s) ou Não (n): ")
+resp = input("Desconta Vale Transporte? Sim (s) ou Não (n): ").lower()
 baseINSS = Calculadora.salario_liquido(salario)
 salario_liq = Calculadora.salario_liquido(salario) - Calculadora.imposto_de_renda(salario) - Calculadora.vale_transporte(resp, salario)
 aliquota  = Calculadora.aliquota(baseINSS,salario)
